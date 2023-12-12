@@ -1,5 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
  
+/* Optionally, apply the font to the entire document or specific elements */
+body {
+    background-color: white;
+ }
+@layer base {
+    :root {
+      --color-primary: #07F;
+      --color-secondary: #333333;
+      /* ... */
+    }
+  }
