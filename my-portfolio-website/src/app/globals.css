@@ -5,7 +5,11 @@
 /* Optionally, apply the font to the entire document or specific elements */
 body {
     background-color: white;
+    
  }
+ body::-webkit-scrollbar {
+  display: none;
+}
 @layer base {
     :root {
       --color-primary: #07F;

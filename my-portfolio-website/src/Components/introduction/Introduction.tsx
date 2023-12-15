@@ -6,18 +6,18 @@ import { DownloadOutlined } from "@ant-design/icons";
 
 const Introduction = () => {
   return (
-    <div className="bg-white w-full px-8 pt-[100px] flex md:flex-row flex-col-reverse gap-3  justify-around">
+    <div data-aos="zoom-out-up" className="bg-white w-full px-8 pt-[100px] flex md:flex-row flex-col-reverse gap-3  justify-around">
       <div className="md:text-left text-center md:w-1/2 w-full flex flex-col   ">
-        <p className="text-[--color-secondary] font-semibold text-[25px] leading-normal">
+        <p className="text-[--color-secondary] font-semibold text-[25px] leading-normal mb-5">
           Welcome to my Portfolio
         </p>
-        <h3 className="text-[--color-secondary] font-bold leading-[75px] text-[60px]">
+        <h3 className="text-[--color-secondary] font-bold leading-[50px] text-[60px] mb-3 ">
           Hi I'm
         </h3>
-        <h1 className="text-[--color-primary] font-bold leading-[75px] text-[60px]">
+        <h1 className="text-[--color-primary] font-bold leading-[50px] text-[60px] mb-3">
           Mahmood Ahmad
         </h1>
-        <h3 className="text-[--color-secondary] font-bold leading-[75px] text-[60px]">
+        <h3 className="text-[--color-secondary] font-bold leading-[50px] text-[60px] mb-5">
           Web Developer
         </h3>
         <p className="  w-full sm:text-justify text-center text-light text-[25px] text-[--color-secondary] leading-[35px] text-light">

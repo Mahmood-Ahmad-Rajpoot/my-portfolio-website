@@ -9,6 +9,12 @@ import next from './next.svg'
 import react from './react.svg'
 import myPic from './myPic.jpg' 
 import myPic2 from './myPic2.jpg' 
-
+import university from './university.svg' 
+import degree from './degree.svg' 
+import cv from './myCv.png'
+import backArrow from './backArrow.svg'
+import nextArrow from './nextArrow.svg'
+import editCardWhite from './editCardWhite.svg'
+import editCardBlue from './editCardBlue.svg'
  
-export   {nextlogo,css,html,tailwind,javascript,github,bootstrap,react,next,myPic,myPic2}
+export   {editCardBlue,editCardWhite,nextlogo,degree,university,css,html,tailwind,javascript,github,bootstrap,react,next,myPic,myPic2,cv,backArrow,nextArrow}
