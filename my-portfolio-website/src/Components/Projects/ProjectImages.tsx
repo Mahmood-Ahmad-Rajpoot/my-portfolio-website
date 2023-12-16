@@ -10,58 +10,14 @@ import {
   project5,
   project6,
 } from "@/assets";
+import Buttons from "./Buttons";
 const ProjectImages = () => {
   const [projects, setProjects] = useState<string>("All");
   console.log(projects);
 
   return (
     <div className="mb-[100px]">
-      <div
-        data-aos="fade-up"
-        className="w-full px-[80px] flex flex-wrap gap-8 justify-center"
-      >
-        <Button
-          onClick={() => setProjects("All")}
-          className={`w-[80px] px-3 rounded-full text-[15px] ${
-            projects === "All"
-              ? "text-white bg-[--color-primary] focus:bg-[--color-primary]"
-              : "text-[--color-primary] focus:!bg-[--color-primary]"
-          } cursor-pointer font-semibold border-1 border-[--color-primary] flex items-center justify-center`}
-        >
-          All
-        </Button>
-
-        <Button
-          onClick={() => setProjects("React")}
-          className={`w-[150px] px-3 rounded-full text-[15px] ${
-            projects === "React"
-              ? "text-white bg-[--color-primary] focus:bg-[--color-primary]"
-              : "text-[--color-primary] focus:!bg-[--color-primary]"
-          } cursor-pointer font-semibold border-1 border-[--color-primary] flex items-center justify-center`}
-        >
-          React.js
-        </Button>
-        <Button
-          onClick={() => setProjects("Redux")}
-          className={`w-[150px] px-3 rounded-full text-[15px] ${
-            projects === "Redux"
-              ? "text-white bg-[--color-primary] focus:bg-[--color-primary]"
-              : "text-[--color-primary] focus:!bg-[--color-primary]"
-          } cursor-pointer font-semibold border-1 border-[--color-primary] flex items-center justify-center`}
-        >
-          React/Redux
-        </Button>
-        <Button
-          onClick={() => setProjects("Next")}
-          className={`w-[150px] px-3 rounded-full text-[15px] ${
-            projects === "Next"
-              ? "text-white bg-[--color-primary] focus:bg-[--color-primary]"
-              : "text-[--color-primary] focus:!bg-[--color-primary]"
-          } cursor-pointer font-semibold border-1 border-[--color-primary] flex items-center justify-center`}
-        >
-          Next.js
-        </Button>
-      </div>
+      <Buttons func={setProjects} name={projects}/>
 
       {/* images */}
       <div
