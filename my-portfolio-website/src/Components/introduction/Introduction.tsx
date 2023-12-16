@@ -6,7 +6,7 @@ import { DownloadOutlined } from "@ant-design/icons";
 
 const Introduction = () => {
   return (
-    <div data-aos="zoom-out-up" className="bg-white w-full px-8 pt-[100px] flex md:flex-row flex-col-reverse gap-3  justify-around">
+    <div data-aos="zoom-out-up" className="bg-white w-full px-8 pt-[100px] flex md:flex-row flex-col-reverse gap-3    justify-around">
       <div className="md:text-left text-center md:w-1/2 w-full flex flex-col   ">
         <p className="text-[--color-secondary] font-semibold text-[25px] leading-normal mb-5">
           Welcome to my Portfolio

@@ -21,7 +21,7 @@ const Skills = () => {
   const divStyles = "flex flex-col items-center p-5";
   const paraStyles = "text-[#555] font-semibold";
   return (
-    <div data-aos="zoom-in" className=" mt-[80px] bg-[#F8F8F8] sm:grid grid-rows-4 lg:grid-rows-2 grid-flow-col  justify-around    h-auto   px-5  w-full h-[50px]">
+    <div data-aos="zoom-in" className=" mt-[80px] bg-[#F8F8F8] sm:grid grid-rows-4 lg:grid-rows-2 grid-flow-col justify-around h-auto px-5 w-full ">
       <div className={divStyles}>
         <Image className={iconStyles} src={react} alt="CSS" />
 
@@ -48,7 +48,7 @@ const Skills = () => {
         <p className={paraStyles}>HTML 5</p>
       </div>
       <div className={divStyles}>
-        <Image className={iconStyles} src={css} alt="CSS" />{" "}
+        <Image className={iconStyles} src={css} alt="CSS" />
         <p className={paraStyles}>CSS</p>
       </div>
       <div className={divStyles}>

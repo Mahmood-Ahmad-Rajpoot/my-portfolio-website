@@ -1,24 +1,20 @@
-import ProjectImages from "./ProjectImages";
+import React from "react";
 
-   
-const Projects = () => {
-
+const ClientsHeadings = () => {
   return (
-    <>
-      <div  data-aos="fade-up" className="w-full flex justify-center px-[50px] mb-[30px]">
+     
+      <div className="w-full flex justify-center px-[50px] mb-[30px]">
         <div className="md:w-[55%] w-full text-center mt-[100px] ">
           <p className="text-[--color-primary] font-semibold text-[20px] tracking-[2px] leading-normal mb-4">
-          Our projects
+          TESTIMONIALS
           </p>
           <h1 className="text-[--color-secondary] font-bold text-[50px] leading-[50px] mb-5">
-          Presenting My Design Portfolio and Case Studies
+          The Trust From Clients
           </h1>
         </div>
       </div>
-      <ProjectImages/>
-      
-    </>
+     
   );
 };
 
-export default Projects;
+export default ClientsHeadings;

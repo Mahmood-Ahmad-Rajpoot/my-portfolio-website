@@ -9,12 +9,12 @@ const Experience = () => {
   
     
   return (
-    <div className="bg-white w-full px-8 pt-[100px] flex md:flex-row flex-col gap-3  justify-around">
+    <div className="bg-white w-full px-8 pt-[100px] flex md:flex-row flex-col gap-3  justify-around ">
       <div className="md:w-1/2 shrink w-full mb-5 flex items-center justify-center  ">
         {" "}
         <Image data-aos='zoom-in-right'
           className="rounded-full shrink-none "
-          width={500}
+          
           src={myPic2}
           alt="my-Profile-pic"
         />{" "}

@@ -3,7 +3,7 @@ import React from "react";
 
 const ExploringMySkills = () => {
   return (
-    <div data-aos="fade-up" className="w-full flex justify-center mt-[100px] px-4 py-2">
+    <div data-aos="fade-up" className="w-full flex justify-center mt-[100px]   px-4 py-2">
       <div className="md:w-[650px] w-full text-center  flex flex-col   ">
         <p className="text-[--color-primary] font-semibold text-[20px] tracking-[2px] leading-normal mb-5">
           SERVICES

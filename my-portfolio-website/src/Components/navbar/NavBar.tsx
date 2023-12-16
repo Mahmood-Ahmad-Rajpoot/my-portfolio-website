@@ -1,12 +1,13 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
 import Image from "next/image";
-import logo from "../../assets/react.svg";
-import { Button } from "antd";
+ import { Button } from "antd";
+ 
 import Hamburger from "./HamburgerIcon";
 import MobileMenu from "./MobileMenu";
 import { CloseOutlined } from "@ant-design/icons";
 import { useOutsideClick } from "./useOutsideClick";
+import { react } from "@/assets";
 
 const NavBar = () => {
   const [ham, setHam] = useState(false);
@@ -16,10 +17,10 @@ const NavBar = () => {
   const styles =
     "font-sans font-medium xl:text-[18px] text-[15px] text-[--color-secondary] hover:cursor-pointer hover:text-[--color-primary] hover:underline hover:underline-offset-8 hover:decoration-[3px] hover:decoration-[#07F]";
   return (
-    <div ref={ref} className="flex flex-col sm:items-end items-center px-8  ">
+    <div ref={ref} className="flex flex-col sm:items-end items-center px-8 mb-11  ">
       <div className="w-full py-2 flex justify-between gap-5  mt-8 h-10">
         <div className="    h-full flex-0 flex  items-center   gap-1">
-          <Image width={80} alt="company" src={logo} />
+          <Image width={80} alt="company" src={react} />
           <h6 className="font-Zen Kaku Gothic Antique  text-[24px] text-[#333] font-black">
             MaeroSoft
           </h6>{" "}
@@ -48,7 +49,7 @@ const NavBar = () => {
         </Button>
       </div>              
       {ham && (
-        <div className="md:hidden  w-full mt-3 bg-blue-100 rounded-md flex flex items-center justify-center">
+        <div className="md:hidden  w-full mt-3 bg-blue-100 rounded-md flex items-center justify-center">
           <MobileMenu />
         </div>
       )}
