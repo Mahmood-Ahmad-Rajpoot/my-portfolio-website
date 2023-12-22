@@ -2,6 +2,7 @@ import EastIcon from "@mui/icons-material/East";
 import KeyboardBackspaceIcon from "@mui/icons-material/KeyboardBackspace";
 import { Button } from "antd";
 import Image from "next/image";
+import { cards } from "./data";
 interface getProps{
     func:(name:number)=>void;
     active:number
@@ -22,7 +23,7 @@ const Buttons:React.FC<getProps> = ({func, active}) => {
           </Button>
           <Button
           autoFocus 
-            disabled={active === 3}
+            disabled={cards.length === active+1}
             onClick={() => func(0)}
             className={btnStyles}
             shape="circle"

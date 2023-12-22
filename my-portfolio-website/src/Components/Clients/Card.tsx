@@ -1,8 +1,8 @@
-import { myPic } from '@/assets';
-import { Rate } from 'antd';
+ import { Rate } from 'antd';
 import Image from 'next/image';
 import React from 'react'
- 
+import { myPic } from '../../assets';
+  
  
 interface getProp{
     func:(num:number)=>void;

@@ -25,7 +25,20 @@ import project6 from "./p6.png";
 import fb from "./fb.svg";
 import linkedin from "./linkedin.svg";
 import gamail from "./gmail.svg";
+import typescript from "./typescript.svg";
+import background from "./background.jpg";
+import whatsapp from "./whatsapp.svg";
+import shahan from "./shahan.jpg";
+import logo from "./logo.svg";
+import resume from "./myCv.png";
+
 export {
+  resume,
+  logo,
+  shahan,
+  whatsapp,
+  background,
+  typescript,
   gamail,
   fb,
   linkedin,

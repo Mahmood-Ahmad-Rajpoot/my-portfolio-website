@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
  
+ 
+
 /* Optionally, apply the font to the entire document or specific elements */
 body {
     background-color: white;

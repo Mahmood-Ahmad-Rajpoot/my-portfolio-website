@@ -14,7 +14,9 @@ const ConsultForm = () => {
   const customMsg: React.ReactElement = (
     <span className="text-white flex gap-1 items-center"><p className="text-[#d33f3f] text-[25px]">*</p>This fiels is required</span>
   );
-     
+  const mailMsg: React.ReactElement = (
+    <span className="text-white flex gap-1 items-center"><p className="text-[#d33f3f] text-[25px]">*</p>Enter valid mail address</span>
+  );
   type FieldType = {
     username?: string;
     email?: string;
@@ -51,7 +53,7 @@ const ConsultForm = () => {
             }}
             name= "email"
            
-            rules={[{ required: true, type: "email", message: customMsg,
+            rules={[{ required: true, type: "email", message: mailMsg,
              }]}
           >
             <Input className='h-[40px]' placeholder="Email*" />

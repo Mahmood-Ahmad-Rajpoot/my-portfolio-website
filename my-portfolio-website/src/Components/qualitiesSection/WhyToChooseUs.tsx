@@ -2,7 +2,7 @@ import React from 'react'
 import Boxes from './Boxes';
  
 const WhyToChooseUs = () => {
-    const arr:number[]=[1,2,3,4];
+    const arr:any[]=[{num:'20+',name:'Satified Clients'}, {num:'50+',name:'Impressions'}];
   return (
     <div data-aos="flip-up" className='bg-[--color-primary] w-full   h-auto px-[80px] py-[100px] flex flex-col items-center'>
         <div className='md:w-[55%] w-full text-center '>
@@ -13,8 +13,8 @@ const WhyToChooseUs = () => {
         </div>
         <div data-aos="flip-up" className='mt-[100px] flex md:flex-row md:flex-wrap flex-col justify-center w-full   gap-8 '>
         {
-            arr.map((_,ind)=>{
-                return <Boxes key={ind}/>
+            arr.map((d,ind)=>{
+                return <Boxes key={ind} num={d.num} name={d.name}/>
             })
         }
         </div>

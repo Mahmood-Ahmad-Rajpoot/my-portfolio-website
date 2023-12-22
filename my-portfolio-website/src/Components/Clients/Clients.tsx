@@ -1,9 +1,5 @@
 "use client";
-import { Button, Rate } from "antd";
-import Image from "next/image";
 import React, { useState } from "react";
-import EastIcon from "@mui/icons-material/East";
-import KeyboardBackspaceIcon from "@mui/icons-material/KeyboardBackspace";
 import ClientsHeadings from "./ClientsHeadings";
 import Buttons from "./Buttons";
 import Card from "./Card";
@@ -31,20 +27,21 @@ const Clients = () => {
     }
   };
   return (
-    <div className="w-full m-0 h-auto" data-aos="fade-down">
+    <div className="w-full m-0 h-auto">
       <ClientsHeadings />
 
-      <div data-aos="fade-down">
+      <div>
         <Buttons func={handleClick} active={active} />
       </div>
       <div
         data-aos="fade-down"
         id="scrollID1"
-        className="w-full md:pl-[80px] p-10 mb-5 flex scrollBar overflow-scroll overflow-x gap-5"
+        className="w-full md:pl-[80px] p-10 mb-5 flex justify-center scrollBar overflow-scroll overflow-x gap-5"
       >
         {cards.map((card, ind) => {
           return (
             <Card
+            key={ind}
               func={setActive}
               active={active}
               ind={ind}
