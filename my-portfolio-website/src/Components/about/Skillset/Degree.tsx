@@ -2,7 +2,7 @@
 import React, { useState } from "react";
 import { Button, Modal, Popover } from "antd";
 import Image from "next/image";
-import { cv } from "../../../assets";
+import { resume } from "../../../assets";
   const Degree = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
@@ -38,7 +38,7 @@ import { cv } from "../../../assets";
         onCancel={handleCancel}
       >
      
-       <Image src={cv} alt="my cv"/>
+       <Image src={resume} alt="my cv"/>
         </Modal>
     </div>
   );
