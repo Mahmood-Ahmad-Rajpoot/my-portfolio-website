@@ -4,8 +4,8 @@ import React, { useEffect, useRef } from "react";
 import NavBar from "../navbar/NavBar";
 import Introduction from "../introduction/Introduction";
 import Skills from "../skills/Skills";
-import Experience from "../about/Experience";
-import ExploringMySkills from "../services/ExploringMySkills";
+import Experience from "../about/About";
+import ExploringMySkills from "../services/Services";
 import AOS from "aos";
 import "aos/dist/aos.css"; // Add the AOS styles
 import Strategies from "../services/strategies/Strategies";
@@ -26,7 +26,7 @@ const Home: React.FC = () => {
 
   return (
     <div className="w-full overflow-x-hidden">
-      <div className="w-[200px] h-[200px] fixed bottom-0 right-0 z-50 flex justify-center items-center bg-transparent">
+      <div className="w-[100px] h-[100px] fixed bottom-0 right-0 z-50 flex justify-center items-center bg-transparent">
         <Link target="_blank" href="https://api.whatsapp.com/send/?phone=%2B923248433826&text&type=phone_number&app_absent=0">
           <Button
             className="flex justify-center items-center "
@@ -38,8 +38,8 @@ const Home: React.FC = () => {
               className="shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-xxl"
               src={whatsapp}
               alt="whatspp icon "
-              width={90}
-              height={90}
+              width={70}
+              height={70}
             />
           </Button>
            

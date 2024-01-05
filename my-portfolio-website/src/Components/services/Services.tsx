@@ -16,10 +16,13 @@ const ExploringMySkills = () => {
           </p>
           <div className="flex items-center justify-center mb-5 flex-wrap gap-3">
             <h1 className="text-[--color-secondary] font-bold leading-[50px] text-[50px] ">
-              Exploring My Design
+              See Which 
             </h1>
             <h1 className="text-[--color-primary] font-bold leading-[50px] text-[50px]">
-              Skills
+              Services
+            </h1>
+            <h1 className="text-[--color-secondary] font-bold leading-[50px] text-[50px] ">
+              We Offer 
             </h1>
           </div>
 

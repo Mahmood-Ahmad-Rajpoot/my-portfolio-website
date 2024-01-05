@@ -34,14 +34,14 @@ const Card:React.FC<getProp> = ({func, active, ind, img, heading, desc,name, pro
     <h1
       className={`${
         active === ind ? "text-white" : "text-black"
-      } text-[25px]  font-semibold  h-[80px] overflow-hidden`}
+      } text-[25px]  font-semibold  h-[100px] overflow-hidden`}
     >
     {heading}
     </h1>
     <p
       className={`${
         active === ind ? "text-white" : "text-black"
-      } text-[18px] leading-[28px] h-[80px] overflow-hidden font-light `}
+      } text-[18px] leading-[28px] h-[100px] overflow-hidden font-light `}
     >
     {desc}
     </p>

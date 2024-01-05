@@ -87,7 +87,7 @@ const styles =
   return (
     <div
       ref={ref}
-      className="flex z-50 w-full bg-white fixed shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]   flex-col  px-8  justify-center  "
+      className="flex z-50 w-full bg-white fixed shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px] flex-col  px-8  justify-center  "
     >
       <div className="w-full py-2 flex justify-between gap-5 self-center  h-auto">
         <div

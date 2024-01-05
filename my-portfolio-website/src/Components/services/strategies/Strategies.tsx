@@ -42,10 +42,10 @@ const Strategies: React.FC = () => {
       >
         {/* Cards map */}
         {cards.map((card, ind) => {
-          console.log(ind);
-
+ 
           return (
             <Card
+            key={ind}
             func={setActive}
             active={active}
             ind={ind}

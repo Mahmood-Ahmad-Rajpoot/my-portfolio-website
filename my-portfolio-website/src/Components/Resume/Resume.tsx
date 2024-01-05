@@ -1,38 +1,11 @@
 import React from 'react'
-import { myPic, resume } from "../../assets";
-import { Button } from "antd";
-import { DownloadOutlined } from "@ant-design/icons";
+import { myPic,   } from "../../assets";
+
 import Image from "next/image";
+import DownloadResume from './DownloadResume';
 
 const Resume = () => {
-  const handleDownload = () => {
-    // Assuming 'resume' is the image file or data
-    const data: any = resume;
-
-    // Set the correct MIME type for the image (e.g., 'image/jpeg' or 'image/png')
-    const mimeType: string = 'image/jpeg';
-
-    // Create a Blob with the image data and MIME type
-    const blob: Blob = new Blob([data], { type: mimeType });
-
-    // Create a temporary URL for the Blob
-    const url: string = window.URL.createObjectURL(blob);
-
-    // Create an anchor element
-    const a: HTMLAnchorElement = document.createElement('a');
-    a.href = url;
-    a.download = 'MahmoodResume.jpg'; // Specify the desired filename with the appropriate extension
-
-    // Append the anchor to the document and trigger a click event to start the download
-    document.body.appendChild(a);
-    a.click();
-
-    // Remove the anchor from the document
-    document.body.removeChild(a);
-
-    // Revoke the Blob's URL to free up resources
-    window.URL.revokeObjectURL(url);
-  };
+ 
   return (
     <div
         data-aos="zoom-out-up"
@@ -63,14 +36,8 @@ const Resume = () => {
             >
               Hire me!
             </Button> */}
-            <Button
-            onClick={handleDownload}
-              className=" text-[18px] md:w-[250px] w-full border-[--color-primary] text-[--color-primary]    hover:text-white font-sans   text-center   h-[50px]   font-semibold  "
-              shape="round"
-              icon={<DownloadOutlined />}
-            >
-              Download CV
-            </Button>
+            <DownloadResume/>
+           
           </div>
         </div>
         <div className="md:w-1/2 shrink w-full mb-5 flex items-center justify-center  ">

@@ -37,11 +37,17 @@ const ProjectImages = () => {
 
         {(projects === "React" || projects === "All") && (
           <Link href="https://burger-shope.vercel.app/" target="_blank">
+          
+              
               <Image
-            className="md:w-[400px] flex shrink-0 w-full h-[360px] rounded-xl mb-5"
+              style={{width: '100%', height: '100%'}}
+              
+
+            className=" md:w-[400px] flex shrink-0 w-full h-[360px] rounded-xl mb-5"
             src={project2}
             alt="project1"
           />
+           
           </Link>
         
         )}

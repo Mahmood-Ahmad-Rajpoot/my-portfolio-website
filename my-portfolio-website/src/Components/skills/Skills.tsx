@@ -37,9 +37,9 @@ const Skills = () => {
       data-aos="zoom-in"
       className=" mt-[80px] bg-[#F8F8F8] sm:grid grid-rows-5 lg:grid-rows-2 grid-flow-col justify-around h-auto px-5 w-full "
     >
-      {data.map((d) => {
+      {data.map((d, ind) => {
         return (
-          <div className={divStyles}>
+          <div key={ind} className={divStyles}>
             <Image className={iconStyles} src={d.logo} alt="CSS" />
 
             <p className={paraStyles}>{d.name}</p>

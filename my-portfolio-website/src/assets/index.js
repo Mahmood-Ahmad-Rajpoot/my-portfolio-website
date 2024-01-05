@@ -8,10 +8,10 @@ import bootstrap from "./bootstrap.svg";
 import next from "./next.svg";
 import react from "./react.svg";
 import myPic from "./myPic.jpg";
-import myPic2 from "./myPic2.jpg";
+import myPic2 from "./myPic2.png";
 import university from "./university.svg";
 import degree from "./degree.svg";
-import cv from "./myCv.png";
+import resume from "./myResumePNG.png";
 import backArrow from "./backArrow.svg";
 import nextArrow from "./nextArrow.svg";
 import editCardWhite from "./editCardWhite.svg";
@@ -30,10 +30,8 @@ import background from "./background.jpg";
 import whatsapp from "./whatsapp.svg";
 import shahan from "./shahan.jpg";
 import logo from "./logo.svg";
-import resume from "./myCv.png";
 
 export {
-  resume,
   logo,
   shahan,
   whatsapp,
@@ -63,7 +61,7 @@ export {
   next,
   myPic,
   myPic2,
-  cv,
+  resume,
   backArrow,
   nextArrow,
 };
