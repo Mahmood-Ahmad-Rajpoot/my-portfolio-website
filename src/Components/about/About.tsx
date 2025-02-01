@@ -19,8 +19,8 @@ const Experience = () => {
           src={myPic2}
           alt="my-Profile-pic"
         />
-       <DownloadResume/>
-        
+        <DownloadResume />
+
       </div>
       <div
         data-aos="zoom-in-left"
@@ -36,10 +36,9 @@ const Experience = () => {
         <h3 className="text-[--color-secondary] font-bold leading-[50px] text-[50px] mb-10">
           On Web Development
         </h3>
-        <p className=" mb-12 w-full sm:text-justify text-center text-light text-[18px] text-[--color-secondary] leading-[25px] text-light">
-          Hey there! I'm <b>Mahmood Ahmad.</b>
-          I specialize in web design and
-          development, and I'm deeply passionate and committed to my craft. With
+        <p className="mb-12 w-full sm:text-justify text-center text-light text-[18px] text-[--color-secondary] leading-[25px] text-light">
+          Hey there! I&apos;m <b>Mahmood Ahmad.</b>
+          I specialize in web design and development, and I&apos;m deeply passionate and committed to my craft. With
           <b>4years+</b> of experience as a professional Web Developer.
         </p>
         <div className="flex md:flex-row flex-col w-full justify-left mt-5  ">

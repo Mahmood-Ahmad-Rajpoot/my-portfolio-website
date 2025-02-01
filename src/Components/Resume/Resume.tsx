@@ -16,7 +16,7 @@ const Resume = () => {
             RESUME
           </p>
           <h3 className="text-[--color-secondary] font-bold leading-[50px] text-[60px] mb-3 ">
-            Hi I'm
+          Hi I&apos;m
           </h3>
           <h1 className="text-[--color-primary] font-bold leading-[50px] text-[60px] mb-3">
             Mahmood Ahmad

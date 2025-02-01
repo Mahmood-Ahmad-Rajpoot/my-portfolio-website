@@ -28,10 +28,9 @@ const Awards = () => {
           src={degree}
           alt="university-logo"
         />
-        <p className="text-[20px]  text-[--color-primary]   font-light">
-          "Bachelor of Science in Computer Science"
-        </p>
-        
+      <p className="text-[20px] text-[--color-primary] font-light">
+  &quot;Bachelor of Science in Computer Science&quot;
+</p>
       </div>
        <div  className="self-center">  <Degree/></div>
      
